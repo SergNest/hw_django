@@ -1,0 +1,11 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+    <h1>{{ author.fullname }}</h1>
+    <p>Дата народження: {{ author.born_date }}</p>
+    <p>Місце народження: {{ author.born_location }}</p>
+    <p>Опис: {{ author.description }}</p>
+
+
+    <a href="{% url 'quotes:root' %}">Повернутися на головну сторінку</a>
+{% endblock %}

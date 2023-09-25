@@ -1,0 +1,111 @@
+.quote {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #333333;
+}
+
+.quote span.text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    font-style: italic;
+}
+
+.quote small.author {
+    font-weight: bold;
+    color: #3677E8;
+}
+
+.quote .tags {
+    margin-top: 10px;
+}
+
+.tag {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    background-color: #7CA3E6;
+}
+
+.pager {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ul.pager {
+    margin-bottom: 100px;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+}
+
+.pager .next>a, .pager .next>span {
+    float: right;
+}
+
+.disabled {
+    color: #333333;
+    cursor: not-allowed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
